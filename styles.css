@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+.toppage,
+.center {
+    text-align: center;
+}
+
+.toppage {
+    background-color: rgb(146, 152, 192);
+    color: white;
+}
