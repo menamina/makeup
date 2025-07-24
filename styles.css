@@ -49,13 +49,28 @@
 .blurb {
     display: flex;
     flex-direction: column;
-    border: 5px solid peru ;
     justify-content: center;
     align-items: center;
 }
 
 .nav {
     display: flex;
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-right: 0px;
+    border-left: 0px;
 
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    width: 50%;
+    padding: 15px;
+}
+
+.left-side {
+    border-right: 1px solid black;
+}
+
+.right-side {
 }
