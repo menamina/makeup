@@ -11,20 +11,23 @@
     background-color: rgb(255, 222, 115);
 }
 
+
+
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(255, 248, 231);
-    gap: 300px;
+    gap: 330px;
     font-family: 'Garetrademo';
     padding-top: 30px;
     padding-bottom: 30px;
-    color: rgb(90, 72, 72)
+    color: rgb(90, 72, 72);
 }
 
 .blushingdoll {
     font-size: 50px;
+    margin-left: 70px;
 }
 
 .headpics,
@@ -32,7 +35,6 @@
     align-self: flex-end;
     font-size: 18px;
 }
-
 
 .imgs {
     height: auto;
@@ -42,4 +44,18 @@
 .contact {
     display: flex;
     gap: 11px;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid peru ;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    border: 2px solid rgb(0, 0, 0);
+
 }
