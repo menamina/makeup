@@ -134,45 +134,35 @@ a:visited {
 
 .right1,
 .right2,
-.right3,
-.fill {
+.right3 {
     display: flex;
     border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    color: rgb(84, 82, 82);
+    
 }
+
 .right2,
-.right3,
-.fill {
-    justify-content: center;
+.right3{
     height: 200px;
     
 }
 
-
 .right1 {
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
     border-bottom: 1px solid black;
 
     gap: 10px;
     height: 100px;
     max-height: 100px;
 
-    font-size: 35px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
     font-style: italic;
 }
 
-
-.right2 {
-    font-size: 20px;
-    align-items: center;
-}
-
-.right3 {
-    font-size: 20px;
-    align-items: center;
-}
 
 .huda {
     display: flex;
