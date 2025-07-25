@@ -11,8 +11,6 @@
     background-color: rgb(255, 222, 115);
 }
 
-
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -66,6 +64,7 @@
     display: flex;
     width: 50%;
     padding: 15px;
+    justify-content: space-around;
 }
 
 .left-side {
@@ -73,4 +72,43 @@
 }
 
 .right-side {
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    min-height: 1000px; 
+    /*min height  allows me to set minimum needed/reuired
+    but allows for border box to grow larger than that
+    if needed if items need to grow!!!*/
+    overflow: auto;
+    /* over-flow: auto allows scrolling
+    flex inside containers to adjust when needed */
+}
+
+.mleft,
+.mright,
+.rareblush {
+    display: flex;
+}
+
+.mleft {
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: .6;
+    box-sizing: border-box;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 130px;
+
+}
+
+.blush {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.mright {
+    flex-grow: .7;
 }
