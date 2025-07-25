@@ -89,7 +89,7 @@ a:visited {
 .main {
     display: flex;
     justify-content: space-between;
-    min-height: 1000px; 
+    min-height: px; 
     /*min height  allows me to set minimum needed/reuired
     but allows for border box to grow larger than that
     if needed if items need to grow!!!*/
@@ -128,16 +128,57 @@ a:visited {
 .mright {
     flex-direction: column;
     border-left: 1px solid black;
-    justify-content: space-evenly;
     background-color: rgb(255, 231, 207);
-    flex-grow: 1;
 
 }
 
 .right1,
 .right2,
-.right3 {
+.right3,
+.fill {
+    display: flex;
     border-bottom: 1px solid black;
 }
+.right2,
+.right3,
+.fill {
+    justify-content: center;
+    height: 200px;
+    
+}
 
-.flex
+
+.right1 {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+    gap: 10px;
+    height: 100px;
+    max-height: 100px;
+
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+
+.right2 {
+    font-size: 20px;
+    align-items: center;
+}
+
+.right3 {
+    font-size: 20px;
+    align-items: center;
+}
+
+.huda {
+    display: flex;
+
+}
+.eyeshadow {
+    height: auto;
+    width: 500px;
+}
