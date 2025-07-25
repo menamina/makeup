@@ -5,19 +5,28 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .topcontainer {
     display: flex;
     padding: 15px;
-    background-color: rgb(255, 222, 115);
+    background-color: rgb(231, 210, 213);
 }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(255, 248, 231);
+    background-color: rgb(251, 247, 238);
     gap: 330px;
     font-family: 'Garetrademo';
+    font-style: italic;
     padding-top: 30px;
     padding-bottom: 30px;
     color: rgb(90, 72, 72);
@@ -44,19 +53,16 @@
     gap: 11px;
 }
 
-.blurb {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .nav {
     display: flex;
     border: 1px solid rgb(0, 0, 0);
     border-right: 0px;
     border-left: 0px;
+    background-color: rgb(251, 247, 238);
 
+}
+.main {
+    background-color: rgb(251, 247, 238);
 }
 
 .left-side,
@@ -65,13 +71,12 @@
     width: 50%;
     padding: 15px;
     justify-content: space-around;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .left-side {
     border-right: 1px solid black;
-}
-
-.right-side {
 }
 
 .main {
@@ -84,31 +89,47 @@
     overflow: auto;
     /* over-flow: auto allows scrolling
     flex inside containers to adjust when needed */
+    background-color: rgb(251, 247, 238);
 }
 
 .mleft,
-.mright,
-.rareblush {
+.mright {
     display: flex;
 }
 
 .mleft {
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    flex-grow: .6;
-    box-sizing: border-box;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 130px;
+    padding-bottom: 120px;
+    background-color: rgb(251, 247, 238);
+    flex-grow: 2;
 
 }
 
 .blush {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
 
+.rareblush {
+    width: 800px;
 }
 
 .mright {
-    flex-grow: .7;
+    flex-direction: column;
+    border-left: 1px solid black;
+    justify-content: space-evenly;
+    background-color: rgb(255, 231, 207);
+    flex-grow: 1;
+
 }
+
+.right1,
+.right2,
+.right3 {
+    border-bottom: 1px solid black;
+}
+
+.flex
