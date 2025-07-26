@@ -1,0 +1,50 @@
+.c1,
+.c2,
+.c3,
+.c5
+.c1left,
+.c1right,
+.imgtainer1,
+.ktextblurb {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.c1 {
+    justify-content: center;
+}
+
+.c1left,
+.c1right {
+    width: 50%;
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.c1left {
+    border: 3px solid red;
+}
+
+.imgtainer1 {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.kellymain {
+}
+
+
+.c1right {
+    border: 3px solid blue;
+}
+
+
+.c2 {
+    border: 2px solid black;
+}
