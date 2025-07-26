@@ -18,7 +18,6 @@
 .c1right {
     width: 50%;
     max-width: 50%;
-    max-height: 100%;
     object-fit: contain;
 }
 
@@ -27,7 +26,15 @@
 }
 
 .imgtainer1 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 img {
@@ -36,7 +43,27 @@ img {
     object-fit: contain;
 }
 
+
+.k1 {
+    position: absolute;
+    width: 320px;
+    transform: translate(160px);
+    z-index: 1;
+
+}
+
+.k2 {
+    position: absolute;
+    width: 330px;
+    transform: translate(-150px, -150px);
+
+}
+
 .kellymain {
+    position: absolute;
+    width: 500px;
+    transform: translate(25px, 140px);
+    z-index: 1;
 }
 
 
