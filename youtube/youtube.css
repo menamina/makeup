@@ -4,8 +4,7 @@
 .c5
 .c1left,
 .c1right,
-.imgtainer1,
-.ktextblurb {
+.imgtainer1 {
     display: flex;
     box-sizing: border-box;
 }
@@ -29,7 +28,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 1000px;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
@@ -81,6 +80,40 @@ img {
 }
 
 
-.c2 {
-    border: 2px solid black;
+.blurb,
+.subblurb,
+.subblurb1,
+.subblurb2,
+.anotherblurb,
+.subblurb4,
+.blurb4,
+.blurb5 {
+    box-sizing: border-box;
+    display: flex;
+    border: 3px solid red;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.subblurb {
+    font-size: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    height: 300px;
+    font-style: italic;
+}
+
+.subblurb1 {
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    align-content: center;
+    justify-content: flex-end;
+
 }
