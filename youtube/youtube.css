@@ -16,8 +16,6 @@
 .c1left,
 .c1right {
     width: 50%;
-    max-width: 50%;
-    object-fit: contain;
 }
 
 .c1left {
@@ -31,7 +29,6 @@
     height: 1000px;
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain;
     overflow: hidden;
     flex-wrap: wrap;
 }
@@ -76,6 +73,8 @@ img {
 
 
 .c1right {
+    display: flex;
+    flex-direction: column;
     border: 3px solid blue;
 }
 
@@ -91,29 +90,30 @@ img {
     box-sizing: border-box;
     display: flex;
     border: 3px solid red;
-    justify-content: center;
     flex-wrap: wrap;
-    text-wrap: wrap;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-height: 100%;
     max-width: 100%;
-    max-width: 100%;
+    overflow: hidden;
 }
 
 .subblurb {
     font-size: 70px;
+    font-style: italic;
+    width: 100%;
+    height: 300px;
     justify-content: flex-end;
     align-items: center;
-    margin-left: auto;
-    height: 300px;
-    font-style: italic;
 }
 
 .subblurb1 {
-    overflow: hidden;
-    flex-wrap: wrap;
-    height: 100px;
+    width: 600px;
     max-width: 100%;
     max-height: 100%;
     align-content: center;
-    justify-content: flex-end;
+    margin-left: auto;
+    text-align: justify;
+    font-size: 20px;
 
 }
