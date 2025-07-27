@@ -84,7 +84,7 @@ img {
 .subblurb1,
 .subblurb2,
 .anotherblurb,
-.subblurb4,
+.subblurb3,
 .blurb4,
 .blurb5 {
     box-sizing: border-box;
@@ -96,6 +96,10 @@ img {
     max-height: 100%;
     max-width: 100%;
     overflow: hidden;
+}
+
+.blurb {
+    flex-direction: column;
 }
 
 .subblurb {
@@ -116,4 +120,12 @@ img {
     text-align: justify;
     font-size: 20px;
 
+}
+
+.subblurb2,
+.anotherblurb,
+.subblurb3,
+.blurb4,
+.blurb5 {
+    width: 50%;
 }
