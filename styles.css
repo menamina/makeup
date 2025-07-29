@@ -147,6 +147,8 @@ a:visited {
 .right2,
 .right3{
     height: 200px;
+    max-height: 200px;
+    overflow: hidden;
     
 }
 
@@ -163,8 +165,28 @@ a:visited {
     font-style: italic;
 }
 
+.right2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    max-height: 200px;
 
-.huda {
+}
+
+.rabbit {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.right1img {
+    display: block;
+    height: auto;
+
+}
+
+
+.rhode {
     display: flex;
     justify-self: center;
     align-self: center;
@@ -172,18 +194,19 @@ a:visited {
     
 }
 
-.hudasub {
+.rhodesub {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(251, 247, 238);
 }
 
-.eyeshadow {
+.rhode1 {
     box-sizing: border-box;
     height: auto;
     max-width: 60%;
     border-radius: 50%;
+    width: 600px;
     
 }
 
