@@ -1,82 +1,100 @@
-*,
-html,
-body {
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
 }
 
 .parentMain,
-.colorChoice {
+.childContain {
     display: flex;
-    flex-direction: column;
 }
 
 .parentMain {
-    margin: 0 auto; 
-    height: 100%;
-    width: 70%;
-    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.top {
-    text-align: center;
-    margin-top: 5rem;
-    font-size: 2rem;
-    padding-bottom: 2rem;
+.childContain {
+    flex-direction: column;
+    border: 2px solid blue;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .colorChoice {
-    justify-content: center;
-    align-items: center;
+    font-size: 1.5rem;
     text-align: center;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-.color {
+    margin-bottom: 30px;
     border: 1px solid black;
-    padding: 10px;
 }
 
-table,
-.second,
-.third {
-    width: 95%;
-}
-
-.second {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
-}
-
-.second1 {
-    width: 65%;
-    max-width: 65%;
-}
-
-.second2 {
-    width: 27%;
-}
-
-.second2 {
-    justify-content: flex-end;
-    display: grid;
-    grid-template: 50px 280px 50px 280px / 100%;
-}
-
-.colorVariation,
-.hues {
-    background-color: rgb(235, 203, 183);
-    font-size: 2rem;
-    color: white;
+.top {
     font-style: italic;
 }
 
-.backgroundColor {
-    background-color: rgb(84, 48, 48);
+table {
+    text-align: center;
+    border-collapse: collapse;
+    justify-self: center;
+    margin-top: 20px;
+    width: 30vw;
+    height: 4vw;
+    font-size: 20px;
 }
+
+td {
+    border: 1px solid black;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+}
+
+
+.colorWay {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto;
+    grid-row: 2;
+
+}
+
+.sideSnip {
+    grid-column: 2;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.colorOverView,
+.h {
+    background-color: rgb(240, 213, 162);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 1vw;
+}
+
+.colorSelected,
+.hueIMGS {
+    height: 20rem;
+    background-color: yellow;
+}
+
+
+
+
+
 
 
