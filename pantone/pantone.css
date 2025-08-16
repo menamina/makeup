@@ -26,7 +26,6 @@ ul {
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 30px;
-    border: 1px solid black;
 }
 
 .top {
@@ -52,6 +51,7 @@ td {
     grid-template-columns: 2fr 1fr;
     grid-row: auto 1fr 1fr;
     gap: 20px;
+    height: 100%;
 }
 
 h3 {
@@ -72,7 +72,6 @@ h3 {
 .sideSnip {
     grid-column: 2;
     width: 100%;
-    height: min-content;
     border: 1px solid black;
     margin-bottom: 20px;
 }
@@ -86,20 +85,16 @@ h3 {
     padding: 1vw;
 }
 
-.colorSelected,
-.hueIMGS {
-    height: 19rem;
-}
-
 .hueIMGS {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 300px;
+    object-fit: fill;
 }
 
 
 .colorSelected {
     background-color: rgb(117, 68, 68);
+    height: 280px;
 }
 
 .panTain {
@@ -124,9 +119,73 @@ h3 {
     background-color: #994D00;
 }
 
+.panTain:nth-child(2) > .pantone {
+    background-color: #80461B;
+}
+
+.panTain:nth-child(3) > .pantone {
+    background-color: #7B3F00;
+}
+
+.panTain:nth-child(4) > .pantone {
+    background-color: #483C32;
+}
+
+.panTain:nth-child(5) > .pantone {
+    background-color: #D2B48C;
+}
+
+.panTain:nth-child(6) > .pantone {
+    background-color:	#724e2c;
+}
+
+.panTain:nth-child(7) > .pantone {
+    background-color: #c78752;
+}
+
+.panTain:nth-child(8) > .pantone {
+    background-color: #5e481e;
+}
+
+.panTain:nth-child(9) > .pantone {
+    background-color: #ab856f;
+}
+
+.panTain:nth-child(10) > .pantone {
+    background-color: #CD7F32;
+}
+
+.panTain:nth-child(11) > .pantone {
+    background-color: #613936;
+}
+
+.panTain:nth-child(12) > .pantone {
+    background-color: #C19A6B;
+}
+
+
+.panTain:nth-child(13) > .pantone {
+    background-color: #A0522D;
+}
+
+.panTain:nth-child(14) > .pantone {
+    background-color: #DAA06D;
+}
+
+.panTain:nth-child(15) > .pantone {
+    background-color: #C4A484;
+}
+
+.panTain:nth-child(16) > .pantone {
+    background-color: #EADDCA;
+}
+
+
+
+
 .sticky {
     position: sticky;
-    top: 10px;
+    top: 15px;
 }
 
 .bubbles {
@@ -158,4 +217,13 @@ h3 {
 
 .b5 {
     background-color: #ba8d5c;
+}
+
+.leftColumn {
+    height: 100%;
+}
+
+.row1col1 {
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(68, 44, 44, 0.6), 0 4px 6px rgba(0, 0, 0, 0.3);
 }
